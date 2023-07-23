@@ -10,11 +10,11 @@ This project is an exploration of different data sets from online movie database
 2. Business Problem
 3. Data Understanding
 4. Data Preparation
-  Cleaning
-  Feature Engineering
+- Cleaning
+- Feature Engineering
 5. Analysis
-  Most Common Movie Genres
-  Movie Length vs Rating
-  Budget vs  Profit
+- Most Common Movie Genres
+- Movie Length vs Rating
+- Budget vs  Profit
 6. Conclusion and Recommendation
 
