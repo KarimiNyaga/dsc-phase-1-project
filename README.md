@@ -1,4 +1,4 @@
-![movieimage](https://github.com/KarimiNyaga/dsc-phase-1-project/assets/133044097/48cacdc5-79e2-48b1-9f94-a21a98401ca7 =100*100)
+![movieimage](src="https://github.com/KarimiNyaga/dsc-phase-1-project/assets/133044097/48cacdc5-79e2-48b1-9f94-a21a98401ca7" width="200" height="400" />)
 
 
 
