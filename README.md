@@ -14,7 +14,7 @@ This project is an exploration of different data sets from online movie database
   Feature Engineering
 5. Analysis
   Most Common Movie Genres
-  Movie Lenght vs Rating
+  Movie Length vs Rating
   Budget vs  Profit
 6. Conclusion and Recommendation
 
