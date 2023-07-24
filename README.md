@@ -33,6 +33,20 @@ From the analysis, the following are the recommendations made for a company look
 - Budget vs  Profit
 6. Conclusion and Recommendation
 
+# Instructions
+To run the code, make sure you have the following:
+- Python
+- Jupyter Notebook
+- You install both by using Anaconda. Find additional installation resources here [External Installation Guide](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
+- Navigate to the directory where you have cloned this repository and run Jupyter Notebook
+- Here is what you should expect to see:
+  
+
+
+
+https://github.com/KarimiNyaga/dsc-phase-1-project/assets/133044097/748678a5-5243-4d5d-9a4c-48279758424f
+
+
 # Resources
 The data used for this project are contained in the folder labeled zipppedData. The datasets contain data scrapped from the following sources:
 - [IMDB](https://www.imdb.com/)
