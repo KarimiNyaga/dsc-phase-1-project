@@ -5,7 +5,7 @@
 
 
 
-# Exploration Of Movie Data
+# Exploratory Analysis Of Movie Data
 
 This project is an exploration of different data sets from online movie databases containing information about various movies' titles, lengths, ratings, genres, budgets, and profits. It uses exploratory data analysis to look at what the most popular movies are, and the factors that may contribute to the success of movies. This information is then used to generate business recommendations for a company looking to create original movies. 
 
