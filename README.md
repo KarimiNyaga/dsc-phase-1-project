@@ -1,65 +1,58 @@
-# Phase 1 Project
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/133044097/255424273-bdfb7c46-812a-4ee5-b738-b966b6a5ca58.jpg" width="900" height="180" />
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
-## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
 
-### Business Problem
+# Exploration Of Movie Data
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+This project is an exploration of different data sets from online movie databases containing information about various movies' titles, lengths, ratings, genres, budgets, and profits. It uses exploratory data analysis to look at what the most popular movies are, and the factors that may contribute to the success of movies. This information is then used to generate business recommendations for a company looking to create original movies. 
 
-### The Data
+# Method And Results
+The first objective is to analyze the movie genres according to popularity. However, a movie can contain a variety of genres, for instance, one movie can be categorized as drama, thriller, and comedy. Because of this, I take a different approach and take a count of genre based on how many times it appears in the dataset
+, and not on how a movie has been classified. 
 
-In the folder `zippedData` are movie datasets from:
+The second objective is to analyze a movie's length, genre and ratings. I do this by combining two datasets. The third is to analyze a movie's budget and profit. I do this by calculating an estimate of profit from the data showing the budget, and gross sales. 
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+From the analysis, the following are the recommendations made for a company looking to start a production company:
+- Focus on creating movies containing the top genres.However, a movie should have a blend of genres and not a stand-alone genre.
+- Create movies whose length ranges between 50 and 200 minutes
+- Work with low-end and mid-level production budgets, with a focus on local sales before international sales.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+# Overview
+1. Overview of Project
+2. Business Problem
+3. Data Understanding
+4. Data Preparation
+- Cleaning
+- Feature Engineering
+5. Analysis
+- Most Common Movie Genres
+- Movie Length vs Rating
+- Budget vs  Profit
+6. Conclusion and Recommendation
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+# Instructions
+To run the code, make sure you have the following:
+- Python
+- Jupyter Notebook
+- You install both by using Anaconda. Find additional installation resources here [External Installation Guide](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
+- Navigate to the directory where you have cloned this repository and run Jupyter Notebook
+- Here is what you should expect to see:
+  
 
-## Deliverables
 
-There are three deliverables for this project:
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+https://github.com/KarimiNyaga/dsc-phase-1-project/assets/133044097/748678a5-5243-4d5d-9a4c-48279758424f
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
 
-### Key Points
+# Resources
+The data used for this project are contained in the folder labeled zipppedData. The datasets contain data scrapped from the following sources:
+- [IMDB](https://www.imdb.com/)
+- [The Numbers](https://www.the-numbers.com/)
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+# Author
+[KarimiNyaga](https://github.com/KarimiNyaga)
+Done as a part of course requirements at Moringa School. 
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
