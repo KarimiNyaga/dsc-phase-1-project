@@ -10,13 +10,15 @@
 This project is an exploration of different data sets from online movie databases containing information about various movies' titles, lengths, ratings, genres, budgets, and profits. It uses exploratory data analysis to look at what the most popular movies are, and the factors that may contribute to the success of movies. This information is then used to generate business recommendations for a company looking to create original movies. 
 
 # Method And Results
-The first objective is to analyze the movie genres according to popularity. However, a movie can contain a variety of genres, for instance, one movie can be categorized as drama,thriller, and comedy. Because of this, I take a different approach and take a count of genre based on how many times it appears in the dataset
+The first objective is to analyze the movie genres according to popularity. However, a movie can contain a variety of genres, for instance, one movie can be categorized as drama, thriller, and comedy. Because of this, I take a different approach and take a count of genre based on how many times it appears in the dataset
 , and not on how a movie has been classified. 
 
-The second objective is to analyze a movie's length and ratings. I do this by combining two datasets. The third is to analyze a movie's budget and profit. I do this by calculating an estimate of profit from the data showing the budget, and gross sales. 
+The second objective is to analyze a movie's length, genre and ratings. I do this by combining two datasets. The third is to analyze a movie's budget and profit. I do this by calculating an estimate of profit from the data showing the budget, and gross sales. 
 
 From the analysis, the following are the recommendations made for a company looking to start a production company:
-- The company should focus on creating movies based on the top most common genres. However, because the tr
+- Focus on creating movies containing the top genres.However, a movie should have a blend of genres and not a stand-alone genre.
+- Create movies whose length ranges between 50 and 200 minutes
+- Work with low-end and mid-level production budgets, with a focus on local sales before international sales.
 
 # Overview
 1. Overview of Project
